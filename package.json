@@ -6,6 +6,7 @@
     "Daniel Schafer <dschafer@fb.com>"
   ],
   "license": "BSD-3-Clause",
+  "version": "1.0.0",
   "homepage": "https://github.com/graphql/swapi-graphql",
   "bugs": {
     "url": "https://github.com/graphql/swapi-graphql/issues"
