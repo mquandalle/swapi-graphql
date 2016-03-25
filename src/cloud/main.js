@@ -22,7 +22,7 @@ app.use('/', graphqlHTTP(() => ({
 })));
 
 // Listen for incoming HTTP requests
-const listener = app.listen(() => {
+const listener = app.listen(process.env.port || 8080, () => {
   var host = listener.address().address;
   if (host === '::') {
     host = 'localhost';
